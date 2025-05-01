@@ -35,33 +35,33 @@ const NFTsSection = () => {
             platform expands.
           </p>
           
-          <div className="bg-card border border-purple-900/50 rounded-lg p-6 mb-8">
+          <div className="bg-card border border-pink-500/50 rounded-lg p-6 mb-8">
             <h3 className="text-xl font-semibold mb-4 text-center">NFT Benefits</h3>
             <ul className="space-y-3">
               <li className="flex items-center">
-                <div className="w-2 h-2 rounded-full bg-purple-500 mr-3"></div>
+                <div className="w-2 h-2 rounded-full bg-pink-500 mr-3"></div>
                 <span>Early access to new platform features</span>
               </li>
               <li className="flex items-center">
-                <div className="w-2 h-2 rounded-full bg-purple-500 mr-3"></div>
+                <div className="w-2 h-2 rounded-full bg-pink-500 mr-3"></div>
                 <span>Enhanced rewards and earnings potential</span>
               </li>
               <li className="flex items-center">
-                <div className="w-2 h-2 rounded-full bg-purple-500 mr-3"></div>
+                <div className="w-2 h-2 rounded-full bg-pink-500 mr-3"></div>
                 <span>Governance voting rights for platform decisions</span>
               </li>
               <li className="flex items-center">
-                <div className="w-2 h-2 rounded-full bg-purple-500 mr-3"></div>
+                <div className="w-2 h-2 rounded-full bg-pink-500 mr-3"></div>
                 <span>Exclusive community events and experiences</span>
               </li>
               <li className="flex items-center">
-                <div className="w-2 h-2 rounded-full bg-purple-500 mr-3"></div>
+                <div className="w-2 h-2 rounded-full bg-pink-500 mr-3"></div>
                 <span>Future airdrops and token allocations</span>
               </li>
             </ul>
           </div>
           
-          <div className="bg-purple-900/20 border border-purple-500/30 rounded-lg p-6">
+          <div className="bg-black/20 border border-pink-500/30 rounded-lg p-6">
             <h3 className="text-xl font-semibold mb-4 text-center">Mint Information</h3>
             <p className="text-center mb-6">
               Minting will take place exclusively on Magic Eden.
@@ -78,7 +78,7 @@ const NFTsSection = () => {
           {nftImages.map((nft, index) => (
             <div 
               key={index} 
-              className={`group relative overflow-hidden rounded-lg border border-purple-900/50 ${
+              className={`group relative overflow-hidden rounded-lg border border-pink-500/50 ${
                 index === 2 ? "md:col-span-2" : ""
               }`}
             >

@@ -19,7 +19,7 @@ const AboutSection = () => {
           </p>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
-            <div className="bg-card p-6 rounded-lg border border-purple-900/50">
+            <div className="bg-card p-6 rounded-lg border border-pink-500/50">
               <h3 className="text-xl font-semibold mb-3 gradient-text">Community First</h3>
               <p className="text-gray-400">
                 Our ecosystem is designed around our community, with governance and rewards systems 
@@ -27,7 +27,7 @@ const AboutSection = () => {
               </p>
             </div>
             
-            <div className="bg-card p-6 rounded-lg border border-purple-900/50">
+            <div className="bg-card p-6 rounded-lg border border-pink-500/50">
               <h3 className="text-xl font-semibold mb-3 gradient-text">Sustainable Growth</h3>
               <p className="text-gray-400">
                 We're building for the long-term with tokenomics and economics that support 
@@ -35,7 +35,7 @@ const AboutSection = () => {
               </p>
             </div>
             
-            <div className="bg-card p-6 rounded-lg border border-purple-900/50">
+            <div className="bg-card p-6 rounded-lg border border-pink-500/50">
               <h3 className="text-xl font-semibold mb-3 gradient-text">Innovative Tech</h3>
               <p className="text-gray-400">
                 Leveraging the speed and efficiency of Scroll, our platform offers a seamless 
@@ -43,7 +43,7 @@ const AboutSection = () => {
               </p>
             </div>
             
-            <div className="bg-card p-6 rounded-lg border border-purple-900/50">
+            <div className="bg-card p-6 rounded-lg border border-pink-500/50">
               <h3 className="text-xl font-semibold mb-3 gradient-text">Real Utility</h3>
               <p className="text-gray-400">
                 Our NFTs and tokens have real utility within the ecosystem, from governance rights 
@@ -54,8 +54,8 @@ const AboutSection = () => {
         </div>
         
         <div className="flex-1 relative">
-          <div className="relative h-full overflow-hidden rounded-lg border border-purple-900/50">
-            <div className="absolute inset-0 bg-gradient-to-br from-purple-900/40 to-background z-10"></div>
+          <div className="relative h-full overflow-hidden rounded-lg border border-pink-500/50">
+            <div className="absolute inset-0 bg-gradient-to-br from-pink-500/40 to-background z-10"></div>
             <div className="absolute inset-0 flex items-center justify-center z-20">
               <div className="text-center p-8">
                 <h3 className="text-3xl font-bold mb-4 gradient-text">Join The Journey</h3>
@@ -64,7 +64,7 @@ const AboutSection = () => {
                 </p>
                 <a 
                   href="#socials" 
-                  className="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors"
+                  className="inline-flex items-center text-pink-400 hover:text-pink-300 transition-colors"
                 >
                   Connect with us
                   <ArrowRight className="ml-2 h-4 w-4" />

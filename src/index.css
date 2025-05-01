@@ -119,21 +119,21 @@
 
 /* Additional gradient classes for buttons and icons */
 .btn-pink-gradient {
-  @apply bg-gradient-to-r from-[#e477b8] to-pink-800 hover:from-[#e477b8] hover:to-pink-900 text-white;
+  @apply bg-gradient-to-r from-[#e477b8] to-black hover:from-[#e477b8] hover:to-black text-white;
 }
 
 .btn-black-pink-gradient {
-  @apply bg-gradient-to-r from-black to-[#e477b8] hover:from-black hover:to-pink-700 text-white;
+  @apply bg-gradient-to-r from-black to-[#e477b8] hover:from-black hover:to-[#e477b8] text-white;
 }
 
 .icon-gradient {
-  @apply bg-gradient-to-br from-[#e477b8] to-pink-600 p-2 rounded-full text-white;
+  @apply bg-gradient-to-br from-[#e477b8] to-black p-2 rounded-full text-white;
 }
 
 .card-gradient {
-  @apply bg-gradient-to-br from-gray-900 to-pink-900/30 backdrop-blur-sm border border-pink-500/20;
+  @apply bg-gradient-to-br from-gray-900 to-pink-500/30 backdrop-blur-sm border border-pink-500/20;
 }
 
 .section-gradient {
-  @apply bg-gradient-to-b from-black to-purple-900/30;
+  @apply bg-gradient-to-b from-black to-pink-500/30;
 }

@@ -28,14 +28,14 @@ const SocialsSection = () => {
             href={social.url} 
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-card hover:bg-card/80 transition-colors duration-300 border border-purple-900/50 rounded-lg p-6 text-center group"
+            className="bg-card hover:bg-card/80 transition-colors duration-300 border border-pink-500/50 rounded-lg p-6 text-center group"
           >
-            <div className="w-16 h-16 mx-auto mb-4 bg-purple-900/30 rounded-full flex items-center justify-center group-hover:bg-purple-900/50 transition-colors">
+            <div className="w-16 h-16 mx-auto mb-4 bg-black/30 rounded-full flex items-center justify-center group-hover:bg-pink-500/30 transition-colors">
               <span className="text-2xl">{social.name.charAt(0)}</span>
             </div>
             <h3 className="text-xl font-semibold mb-2">{social.name}</h3>
             <p className="text-sm text-gray-400">{social.description}</p>
-            <div className="mt-4 text-purple-400 group-hover:text-purple-300 transition-colors">
+            <div className="mt-4 text-pink-400 group-hover:text-pink-300 transition-colors">
               Join Now →
             </div>
           </a>
@@ -49,9 +49,9 @@ const SocialsSection = () => {
             <input
               type="email"
               placeholder="Enter your email"
-              className="flex-grow px-4 py-3 bg-secondary/50 border border-purple-900/50 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+              className="flex-grow px-4 py-3 bg-secondary/50 border border-pink-500/50 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-pink-500"
             />
-            <button className="px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-r-lg transition-colors">
+            <button className="px-6 py-3 bg-pink-500 hover:bg-pink-600 rounded-r-lg transition-colors">
               Subscribe
             </button>
           </div>
