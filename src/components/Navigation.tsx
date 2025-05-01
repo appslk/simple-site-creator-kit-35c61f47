@@ -50,7 +50,7 @@ const Navigation = () => {
                 key={item.name} 
                 to={item.path} 
                 className={`nav-link text-sm font-medium ${
-                  item.status === "active" ? "text-purple-400" : ""
+                  item.status === "active" ? "text-pink-400" : ""
                 }`}
               >
                 {item.name}
@@ -64,14 +64,14 @@ const Navigation = () => {
           </nav>
         </div>
         
-        <Button className="hidden md:flex">
+        <Button className="hidden md:flex black-pink-gradient hover:opacity-90">
           Connect Wallet
         </Button>
         
         <div className="md:hidden">
           <button
             onClick={toggleMobileMenu}
-            className="text-white hover:text-purple-400 transition-colors"
+            className="text-white hover:text-pink-400 transition-colors"
           >
             {isMobileMenuOpen ? (
               <X size={24} />
@@ -91,7 +91,7 @@ const Navigation = () => {
                 key={item.name} 
                 to={item.path} 
                 className={`nav-link ${
-                  item.status === "active" ? "text-purple-400" : ""
+                  item.status === "active" ? "text-pink-400" : ""
                 }`}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
@@ -103,7 +103,7 @@ const Navigation = () => {
                 )}
               </Link>
             ))}
-            <Button className="w-full mt-2">
+            <Button className="w-full mt-2 pink-black-gradient hover:opacity-90">
               Connect Wallet
             </Button>
           </nav>

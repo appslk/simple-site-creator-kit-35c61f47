@@ -90,7 +90,7 @@ const ScrollIndicator = ({ sections }: ScrollIndicatorProps) => {
           : "right-6 top-1/2 -translate-y-1/2 hidden md:flex flex-col items-center gap-4"
       }`}
     >
-      <div className={`p-4 rounded-xl bg-gray-900/70 backdrop-blur-md border border-purple-500/30 shadow-lg shadow-purple-500/10 ${
+      <div className={`p-4 rounded-xl bg-gray-900/70 backdrop-blur-md border border-pink-500/30 shadow-lg shadow-pink-500/10 ${
         isMobile ? "flex flex-row gap-4" : "flex flex-col gap-4"
       }`}>
         {sections.map((section) => (

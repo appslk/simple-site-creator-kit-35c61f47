@@ -14,7 +14,7 @@
     --popover: 250 30% 10%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 263 59% 63%;
+    --primary: 326 67% 68%;
     --primary-foreground: 0 0% 98%;
 
     --secondary: 250 25% 16%;
@@ -23,7 +23,7 @@
     --muted: 250 25% 16%;
     --muted-foreground: 0 0% 70%;
 
-    --accent: 263 59% 63%;
+    --accent: 326 67% 68%;
     --accent-foreground: 0 0% 98%;
 
     --destructive: 0 62.8% 30.6%;
@@ -31,7 +31,7 @@
 
     --border: 250 25% 16%;
     --input: 250 25% 16%;
-    --ring: 263 59% 63%;
+    --ring: 326 67% 68%;
 
     --radius: 0.75rem;
 
@@ -63,7 +63,7 @@
 
 @layer components {
   .gradient-text {
-    @apply bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-pink-400 to-pink-600 bg-clip-text text-transparent;
   }
 
   .section-container {
@@ -80,7 +80,7 @@
 }
 
 .scroll-indicator-item.active {
-  @apply bg-purple-500 text-white shadow-lg shadow-purple-500/40 scale-110 ring-2 ring-purple-300/30;
+  @apply bg-pink-500 text-white shadow-lg shadow-pink-500/40 scale-110 ring-2 ring-pink-300/30;
 }
 
 .scroll-indicator-item:not(.active) {
@@ -92,7 +92,7 @@
 }
 
 .nav-link.active {
-  @apply text-purple-400;
+  @apply text-pink-400;
 }
 
 @keyframes fade-in {
@@ -103,3 +103,17 @@
 .animate-fade-in {
   animation: fade-in 0.3s ease-in-out forwards;
 }
+
+/* New gradient classes */
+.pink-black-gradient {
+  @apply bg-gradient-to-br from-[#e477b8] to-black;
+}
+
+.black-pink-gradient {
+  @apply bg-gradient-to-br from-black to-[#e477b8];
+}
+
+.pink-black-radial {
+  @apply bg-radial from-[#e477b8] to-black;
+}
+

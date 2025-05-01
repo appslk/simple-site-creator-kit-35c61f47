@@ -59,7 +59,7 @@ const HomePage = () => {
       {showScrollTop && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 z-50 w-12 h-12 rounded-full bg-purple-600 hover:bg-purple-700 flex items-center justify-center transition-all"
+          className="fixed bottom-8 right-8 z-50 w-12 h-12 rounded-full pink-black-gradient hover:opacity-90 flex items-center justify-center transition-all"
           aria-label="Scroll to top"
         >
           <ChevronUp className="w-6 h-6" />
