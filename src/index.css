@@ -104,7 +104,7 @@
   animation: fade-in 0.3s ease-in-out forwards;
 }
 
-/* New gradient classes */
+/* Enhanced gradient classes */
 .pink-black-gradient {
   @apply bg-gradient-to-br from-[#e477b8] to-black;
 }
@@ -117,3 +117,23 @@
   @apply bg-radial from-[#e477b8] to-black;
 }
 
+/* Additional gradient classes for buttons and icons */
+.btn-pink-gradient {
+  @apply bg-gradient-to-r from-[#e477b8] to-pink-800 hover:from-[#e477b8] hover:to-pink-900 text-white;
+}
+
+.btn-black-pink-gradient {
+  @apply bg-gradient-to-r from-black to-[#e477b8] hover:from-black hover:to-pink-700 text-white;
+}
+
+.icon-gradient {
+  @apply bg-gradient-to-br from-[#e477b8] to-pink-600 p-2 rounded-full text-white;
+}
+
+.card-gradient {
+  @apply bg-gradient-to-br from-gray-900 to-pink-900/30 backdrop-blur-sm border border-pink-500/20;
+}
+
+.section-gradient {
+  @apply bg-gradient-to-b from-black to-purple-900/30;
+}

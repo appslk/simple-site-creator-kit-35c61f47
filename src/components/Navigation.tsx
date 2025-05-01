@@ -64,7 +64,7 @@ const Navigation = () => {
           </nav>
         </div>
         
-        <Button className="hidden md:flex black-pink-gradient hover:opacity-90">
+        <Button variant="gradient" className="hidden md:flex">
           Connect Wallet
         </Button>
         
@@ -103,7 +103,7 @@ const Navigation = () => {
                 )}
               </Link>
             ))}
-            <Button className="w-full mt-2 pink-black-gradient hover:opacity-90">
+            <Button variant="pinkGradient" className="w-full mt-2">
               Connect Wallet
             </Button>
           </nav>
