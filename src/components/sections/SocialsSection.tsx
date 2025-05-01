@@ -1,4 +1,7 @@
 
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+
 const SocialsSection = () => {
   const socialLinks = [
     { name: "Twitter", icon: "twitter.svg", url: "#", description: "Follow for the latest updates and announcements" },
@@ -46,14 +49,14 @@ const SocialsSection = () => {
         <h3 className="text-2xl font-bold mb-8">Subscribe to Our Newsletter</h3>
         <div className="max-w-md mx-auto">
           <div className="flex">
-            <input
+            <Input
               type="email"
               placeholder="Enter your email"
               className="flex-grow px-4 py-3 bg-secondary/50 border border-pink-500/50 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-pink-500"
             />
-            <button className="px-6 py-3 bg-pink-500 hover:bg-pink-600 rounded-r-lg transition-colors">
+            <Button className="px-6 py-3 bg-pink-500 hover:bg-pink-600 rounded-r-lg transition-colors">
               Subscribe
-            </button>
+            </Button>
           </div>
           <p className="mt-2 text-xs text-gray-500">
             We respect your privacy and will never share your email address.

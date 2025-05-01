@@ -75,7 +75,7 @@ const TeamSection = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-4">
                   <h3 className="text-xl font-semibold">{member.name}</h3>
-                  <p className="text-purple-300">{member.role}</p>
+                  <p className="text-pink-300">{member.role}</p>
                 </div>
               </div>
               <p className="text-sm text-gray-400">{member.bio}</p>
@@ -89,7 +89,7 @@ const TeamSection = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {advisors.map((advisor, index) => (
-            <div key={index} className="flex bg-card rounded-lg overflow-hidden border border-purple-900/50">
+            <div key={index} className="flex bg-card rounded-lg overflow-hidden border border-pink-500/50">
               <div className="w-1/3">
                 <img 
                   src={advisor.image}
@@ -99,7 +99,7 @@ const TeamSection = () => {
               </div>
               <div className="p-4 w-2/3">
                 <h4 className="text-lg font-semibold">{advisor.name}</h4>
-                <p className="text-purple-300 text-sm mb-2">{advisor.role}</p>
+                <p className="text-pink-300 text-sm mb-2">{advisor.role}</p>
                 <p className="text-sm text-gray-400">{advisor.bio}</p>
               </div>
             </div>
